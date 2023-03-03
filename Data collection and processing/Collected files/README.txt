@@ -8,6 +8,7 @@ final_two_variants_dataset.csv - медиатека + разметка (пшен
 администрация_коми_рус.xlsx - ручная разметка Нади с сайта новостей Коми. Все норм.
 processed_documents_manual.csv - ручная разметка Нади с сайта новостей Коми. Все норм.
 processed_documents_manual_3.csv - Обработаны файлы с 254 по 499
+processed_documents_manual_4.csv - Обработаны файлы нового парсера с 1 по 142
 parsing_administration.xlsx - автоматический парсинг новостей. Проверка была но стоит перепроверить
 
 
