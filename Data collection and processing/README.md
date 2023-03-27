@@ -1,18 +1,21 @@
-# Data collection and processing
+# Data collection and processing #
 <br>
-### Dataset <br>
+### Dataset ### <br>
 final_dataset.csv - медиатека + разметка (пшенная каша) + данные с сайта новостей Коми <br>
 final_two_variants_dataset.csv - медиатека + разметка (пшенная каша) + данные с сайта новостей Коми + дублирован с шифтом языка <br>
 <br>
-### Notebook <br>
+### Notebook ### <br>
 Check_sentences.ipynb - файл для проверки данных, есть поиск расхождания строк <br>
 Make_a_dataset.ipynb - создание общих датасетов в разделе Dataset <br>
 Merge_processed_documents.ipynb - объединение файлов ручной обработки <br>
 Parser_administration.ipynb - парсинг сайта новостей Коми и сохранение в файлы, в зависимости от их пригодности <br>
 <br>
-### Collected files/... <br>
+### Collected files/...  ### <br>
 Пшенная_каша_коми_рус.xlsx - разметка одной рассказа. Асессор одобряет <br>
-Медиатека_коми_рус.xlsx - почищеный файл медиатеки, возможны ошибки. После 1600 строки было много перепутано, уже исправлено (косячный диалог http://videocorpora.ru/ru/content/%D0%B0%D0%BD%D0%BD%D0%B0-%D0%B5%D1%84%D0%B8%D0%BC%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D0%B0%D0%BD%D0%B5%D0%B2%D0%B0-%D0%B8-%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9-%D0%B8%D0%BF%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%B2%D0%B8%D1%87-%D0%BA%D0%B0%D0%BD%D0%B5%D0%B2)" - в кавычках исправлено, но на сайте косячное соотношение субтитров осталось <br>
+Медиатека_коми_рус.xlsx - почищеный файл медиатеки, возможны ошибки. После 1600 строки было много перепутано, уже исправлено, не правильное соотношение в диалогах: <br>
+* http://videocorpora.ru/ru/content/%D0%B0%D0%BD%D0%BD%D0%B0-%D0%B5%D1%84%D0%B8%D0%BC%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D0%B0%D0%BD%D0%B5%D0%B2%D0%B0-%D0%B8-%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9-%D0%B8%D0%BF%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%B2%D0%B8%D1%87-%D0%BA%D0%B0%D0%BD%D0%B5%D0%B2 <br>
+* http://videocorpora.ru/ru/content/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D1%84%D0%B8%D0%BB%D0%B8%D0%BF%D0%BF%D0%BE%D0%B2%D0%B8%D1%87-%D1%85%D0%BE%D0%B7%D1%8F%D0%B8%D0%BD%D0%BE%D0%B2-0 <br> 
+Данные в этом файле исправлены, но на сайте некорректное соотношение субтитров осталось <br>
 администрация_коми_рус.xlsx - ручная разметка с сайта новостей Коми. Все норм. <br>
 processed_documents_manual.csv - ручная разметка с сайта новостей Коми. Все норм. <br>
 processed_documents_manual_2.csv - ручная разметка с сайта новостей Коми. Все норм. <br>
